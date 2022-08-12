@@ -1,6 +1,7 @@
 {
   "name": "my-project",
   "source": "src/index.html",
+  "homepage": "https://nemirovka1.github.io/Image-search/",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /Image-search/"
