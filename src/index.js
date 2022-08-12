@@ -11,9 +11,6 @@ const refs={
 const newsApiService=new NewsApiService();
 
 refs.seachForm.addEventListener('submit',onSearchForm);
-// refs.loadMoreBtn.addEventListener('click',onLoadMore);
-
-
 function onSearchForm(event){
     event.preventDefault();
 
@@ -27,9 +24,6 @@ function onSearchForm(event){
     gallery(event);
 }
 
-// function onLoadMore(){
-//     newsApiService.fetchArticles().then(appendArticlesMarkup)
-// }
 function appendArticlesMarkup(hits){
     console.log(hits)
     const mapEl=hits.map(el=>{
